@@ -1,12 +1,252 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Suman's Portfolio - 1st Year Computing Student passionate about learning Java, Python, and web development">
+    <title>Suman | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Suman</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-    <h1>Suman Portfolio</h1>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm Suman</h1>
+<p class="hero-subtitle">B.Sc. Computing Student | Aspiring Full Stack Developer</p>
+<p class="hero-description">I enjoy building web applications, learning Java, Python, and exploring real-world problem solving through code and new ai tools.</p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                   <p>
+                        I'm a 1st year bsc. Computing student from Nepal, passionate about learning software development. I'm currently focusing on building a strong foundation in programming through Java, Python, and web technologies.
+                </p>
+
+                    <p>
+                I enjoy solving coding problems, working on small projects, and continuously learning new concepts. My goal is to become a proficient developer by practicing regularly and taking on challenging projects.
+                </p>
+                    <p>When I'm not coding, you'll find me exploring new technologies, participating in coding communities, or working on personal development projects.</p>
+                    <p>I am open to learning opportunities, collaborations, and student-level projects.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>6+</h3>
+                        <p>Months Learning</p>
+                    </div>
+                    <div class="stat">
+                        <h3>15+</h3>
+                        <p>Practice Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Daily</h3>
+                        <p>Code Practice</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <span class="project-icon">📚</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Student Grade Calculator</h3>
+                        <p>A Java console application that calculates student grades based on marks entered. Features include GPA calculation, grade classification, and result summary.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">OOP</span>
+                            <span class="tag">Console App</span>
+                        </div>
+                        <a href="#" class="project-link">View Code →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <span class="project-icon">🌐</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>This portfolio website built with HTML, CSS, and JavaScript. Features responsive design, smooth animations, and interactive elements.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Live →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <span class="project-icon">🐍</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Python Number Guessing Game</h3>
+                        <p>An interactive number guessing game built with Python. Includes difficulty levels, score tracking, and user-friendly interface.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Game Logic</span>
+                            <span class="tag">User Input</span>
+                        </div>
+                        <a href="#" class="project-link">View Code →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <span class="project-icon">📊</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Simple Calculator App</h3>
+                        <p>A basic calculator application with HTML, CSS, and JavaScript. Supports basic arithmetic operations with a clean, modern interface.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Demo →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <span class="project-icon">📝</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>To-Do List Application</h3>
+                        <p>A task management app built with JavaScript. Features include adding tasks, marking as complete, and local storage for persistence.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Local Storage</span>
+                            <span class="tag">DOM Manipulation</span>
+                        </div>
+                        <a href="#" class="project-link">View Demo →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                        <span class="project-icon">🎯</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Basic Banking System</h3>
+                        <p>A simple banking system simulation in Java with features like account creation, deposits, withdrawals, and balance checking.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Classes</span>
+                            <span class="tag">Methods</span>
+                        </div>
+                        <a href="#" class="project-link">View Code →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills & Learning</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Java (Basics & OOP)</li>
+                        <li>Python (Fundamentals)</li>
+                        <li>C (Basic Programming)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <ul class="skill-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (Basics)</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Concepts</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Problem Solving</li>
+                        <li>Basic Algorithms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">I'm always excited to connect with fellow students, learn from others, and collaborate on interesting projects.</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="social-links">
+                <p>Or connect with me on:</p>
+                <div class="socials">
+                    <a href="#" class="social-icon" title="GitHub">GitHub</a>
+                    <a href="#" class="social-icon" title="LinkedIn">LinkedIn</a>
+                    <a href="#" class="social-icon" title="Twitter">Twitter</a>
+                    <a href="#" class="social-icon" title="Email">Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Suman. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
